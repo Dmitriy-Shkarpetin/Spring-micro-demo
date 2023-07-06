@@ -4,23 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b6860e-d212-4b0c-bf07-1f94dfde75ec" name="Changes" comment="доработанный проект для клиента eureka с добавленным restful сервисом">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/javawithpleasure/micro/demo/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/javawithpleasure/micro/demo/eurekaclient/controllers/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/javawithpleasure/micro/demo/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+    <list default="true" id="d9b6860e-d212-4b0c-bf07-1f94dfde75ec" name="Changes" comment="добавил API Gateway">
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/javawithpleasure/micro/demo/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/javawithpleasure/micro/demo/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/javawithpleasure/micro/demo/eurekaclient/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/javawithpleasure/micro/demo/eurekaclient/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
@@ -31,6 +33,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/api-gateway">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-client">
@@ -54,7 +59,7 @@
         <entry key="$PROJECT_DIR$/eureka-server" value="test_for_eureka_client_module" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/eureka-server" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -85,6 +90,9 @@
     "settings.editor.selected.configurable": "Console"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -92,8 +100,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.javawithpleasure.micro.demo.api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javawithpleasure.micro.demo.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.javawithpleasure.micro.demo.eurekaclient.EurekaClientApplication" />
       <method v="2">
@@ -159,6 +175,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Микросервисы на Spring: доработка модуля Eureka Server (2022) - completed" />
     <MESSAGE value="доработанный проект для клиента eureka с добавленным restful сервисом" />
-    <option name="LAST_COMMIT_MESSAGE" value="доработанный проект для клиента eureka с добавленным restful сервисом" />
+    <MESSAGE value="добавил API Gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил API Gateway" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
